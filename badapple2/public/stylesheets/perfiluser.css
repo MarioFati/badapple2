@@ -1,0 +1,64 @@
+main{
+    display: flex;
+    background-color: black;
+    border-top: 2px solid rgb(209, 14, 14);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+section .profile_pic{
+    width: 400px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+section .profile_pic img{
+    width: 100%;
+    height: auto;
+}
+
+section .user_name h1{
+ font-size: 40px;
+ color: rgb(209, 14, 14);
+ margin:0 auto 10px 10px;
+ text-align: center;
+}
+section .user_name ul{
+    list-style-type: none;
+    font-size: 20px;
+    color: white;
+}
+section .user_name{
+    padding: 5px;
+    width: 450px;
+}
+section .actividade{
+    background-color: rgb(209, 14, 14);
+    color: black;
+    margin: 10px 10px 10px 25px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  section .actividade a{
+      text-decoration: underline;
+      color: black;
+  }
+  section .actividade a:hover{
+    color: white;
+}
+#acti_cont{
+    min-width: 600px;
+    margin: auto;
+}
+#friends{
+    background-color: white;
+    height: 250px;
+    width: 200px;
+    margin: auto;
+    border-radius: 10px;
+}
+section .titulo{
+    background-color: rgb(209, 14, 14);
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 0;
+}

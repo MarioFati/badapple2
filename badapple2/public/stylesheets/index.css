@@ -1,0 +1,267 @@
+body {
+  padding: 5px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url(../images/capa3.png); 
+  margin: 0 auto;
+   
+}
+.logo{
+  text-decoration: none;
+  border: 2px solid black;
+  background: rgb(209, 14, 14);
+  border-radius: 10px;
+  min-width: 480px;
+}
+.efeito:hover{
+  opacity: 0.5;
+}
+#badapp{
+  font-size: 80px;
+  color: black;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-right: 10px;
+}
+
+#badapp:hover{
+  color: rgb(255, 255, 255);
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ 
+}
+li{
+  /* display: inline; */
+  float: left;
+}
+li a{
+  font-size: 20px;
+  text-decoration: none;
+  color: red;
+  display: block;
+  padding: 20px 15px;
+  text-align: center;
+  
+}
+/* li #activo{
+  background-color: rgb(209, 14, 14);
+  color: black;
+} */
+li a:hover{
+  background-color:rgb(209, 14, 14);
+  color: black;
+}
+
+ /* .active{     Duvida para perguntar no prof
+  background-color:white ;
+}  */
+.dropdown{
+  display: none;
+  position: absolute;
+  background-color: black;
+  z-index: 1;
+  box-shadow: 0px 10px 20px px rgba(209, 14, 14);
+  min-width: 100px;
+}
+.dropdown a:hover{
+  background-color:rgb(209, 14, 14) ;
+  color: black;
+}
+.drop:hover .dropdown{
+display: block;
+}
+.perfil img {
+  margin-right: 50px;
+  padding: 10px;
+ 
+}
+
+.header{
+ display: flex; 
+ background-color: rgb(17, 9, 9);
+ justify-content: space-between;
+ border-radius: 10px;
+ align-items: flex-start;
+}
+
+ .navegador{
+   padding: 0;
+   margin: auto 0px auto auto;
+  font-family: 'Times New Roman', Times, serif;
+ }
+
+.lk input[type=text] {
+  width: 30%;
+  box-sizing: border-box;
+  border: 2px solid rgb(209, 14, 14);
+  border-radius: 5px;
+  font-size: 20px;
+  color: red;
+  background-color: black;
+  padding: 10px;
+}
+input[type=text]:focus{
+  width: 100%;
+}
+
+ /* para o corpo */
+.titulo1{
+  background-color:rgb(209, 14, 14) ;
+  border: 1px solid black;
+  padding-left: 10px;
+  /* border: top left radius 10px;  perguntar o prof */ 
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+ 
+}
+.titulo{
+  background-color:rgb(209, 14, 14) ;
+  border: 1px solid black;
+  padding-left: 10px;
+  position: sticky;
+    top: 0;
+}
+section .conteudo{
+  margin: 10px;
+  border: 2px solid rgb(209, 14, 14) ;
+  width: 400px;
+  border-radius: 5px;
+  background-color: black;
+}
+section .conteudo img{
+  width: 100%;
+  height: 300px;
+ 
+}
+section .conteudo img:hover{
+  opacity: 0.8;
+}
+section .leg_conteudo{
+  padding: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: auto;
+  font-family:'Times New Roman', Times, serif ;
+  margin-bottom: 0;
+}
+section .leg_conteudo:hover{
+  background-color: rgb(209, 14, 14) ;
+  color: black;
+}
+#topico1{
+   display: flex;
+   align-items: stretch;
+   overflow-x: scroll;
+   
+ }
+ #topico2{
+   background-color: black;
+   margin: 0;
+   top: 0;
+   bottom: 0;
+   padding: 10px;
+   display: flex;
+ }
+ #topico3{
+   display: flex;
+   background-color:black;
+   justify-content: space-between;
+ }
+ /* #topico4{
+   
+ } */
+  section .lancamentos{
+   width: 600px;
+   border: 1px solid black;
+   margin: 10px;
+   border-bottom-left-radius:10px ;
+   border-bottom-right-radius: 10px;
+ }
+  section .lancamentos iframe{
+    width: 100%;
+    height: 400px;
+    border: 2px solid black ;
+  }
+  section .leg_lancamentos{
+  color: white;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif ;
+  }
+  section .lancamentos:hover{
+    background-color:rgb(209, 14, 14) ;
+  }
+  .leg_lancamentos a{
+    text-decoration: underline;
+    color: white;
+    font-style: italic;
+  }
+  .leg_lancamentos a:hover{
+    color: rgb(6, 71, 192) ;
+  }
+  
+  section .celeb{
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+  }
+  section .celeb_cont{
+    width: 200px;
+    height: 210px;
+    border: 2px solid rgb(209, 14, 14);
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  section .celeb_cont img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  section .celeb_cont img:hover {
+    opacity: 0.7;
+  }
+  section .celeb_name{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+  }
+  section .actividade{
+    background-color: black;
+    color: red;
+    margin: 10px 10px 10px 25px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  section .actividade a{
+    text-decoration: underline;
+    font-style: italic;
+    color: red;
+  }
+  section .actividade a:hover{
+    color: white;
+  }
+  section .tempo{
+    text-align: right;
+  }
+
+  /* footer */
+footer{
+  background-color: rgb(209, 14, 14);
+  padding: 10px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  text-align: center;
+}
+address a{
+  color: black;
+  text-decoration: none;
+}
+address a:hover{
+  color: white;
+}
+
+

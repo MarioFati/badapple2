@@ -1,0 +1,124 @@
+body {
+    padding: 5px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-image: url(../images/capa3.png); 
+    margin: 0 auto;
+     
+  }
+  .logo{
+    text-decoration: none;
+    border: 2px solid black;
+    background: rgb(209, 14, 14);
+    border-radius: 10px;
+    min-width: 480px;
+  }
+  .efeito:hover{
+    opacity: 0.5;
+  }
+  #badapp{
+    font-size: 80px;
+    color: black;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-right: 10px;
+  }
+  
+  #badapp:hover{
+    color: rgb(255, 255, 255);
+  }
+  nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+  }
+ nav li{
+    /* display: inline; */
+    float: left;
+  }
+  li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: red;
+    display: block;
+    padding: 20px 15px;
+    text-align: center;
+    
+  }
+  li a:hover{
+    background-color:rgb(209, 14, 14);
+    color: black;
+  }
+  /* .active{     Duvida para perguntar no prof
+    background-color:white ;
+  } */
+  .dropdown{
+    display: none;
+    position: absolute;
+    background-color: black;
+    z-index: 1;
+    box-shadow: 0px 10px 20px px rgba(209, 14, 14);
+    min-width: 100px;
+  }
+  .dropdown a:hover{
+    background-color:rgb(209, 14, 14) ;
+    color: black;
+  }
+  .drop:hover .dropdown{
+  display: block;
+  }
+  .perfil img {
+    margin-right: 50px;
+    padding: 10px;
+   
+  }
+  
+  .header{
+   display: flex; 
+   background-color: rgb(17, 9, 9);
+   justify-content: space-between;
+   border-radius: 10px;
+   align-items: flex-start;
+  }
+  
+   .navegador{
+     padding: 0;
+     margin: auto 0px auto auto;
+    font-family: 'Times New Roman', Times, serif;
+   }
+  
+  .lk input[type=text] {
+    width: 30%;
+    box-sizing: border-box;
+    border: 2px solid rgb(209, 14, 14);
+    border-radius: 5px;
+    font-size: 20px;
+    color: red;
+    background-color: black;
+    padding: 10px;
+  }
+  input[type=text]:focus{
+    width: 100%;
+  }
+   /* para o corpo */
+
+  
+   
+  footer{
+    background-color: rgb(209, 14, 14);
+    padding: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+   text-align: center;
+   border-top: 2px solid black;
+    /* position: sticky;
+    bottom: 0; */
+  }
+  address a{
+    color: black;
+    text-decoration: none;
+  }
+  address a:hover{
+    color: white;
+  }
